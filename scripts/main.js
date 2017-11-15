@@ -1,13 +1,13 @@
 $( function() {
     var availableTags = [
-      "ActionScript",
-      "AppleScript",
-      "Asp",
-      "BASIC",
-      "C",
-      "C++",
-      "Clojure",
-      "COBOL",
+      "Norge, Gardermoen",
+      "Norge, Torp",
+      "Norge, Rygge",
+      "Spania, Madrid",
+      "Spania, Barcelona",
+      "USA, JFK",
+      "USA, LAX ",
+      "USA, O'Hare International Airport",
       "ColdFusion",
       "Erlang",
       "Fortran",
@@ -23,7 +23,10 @@ $( function() {
       "Scala",
       "Scheme"
     ];
-    $( "#from" ).autocomplete({
+    $( ".autoComplete" ).autocomplete({
       source: availableTags
     });
+  } );
+  $( function() {
+    $( "#datepicker" ).datepicker();
   } );
