@@ -4,6 +4,7 @@
     height: 100px;
 }
 
-.img-fluid {
-    height: 50%;
+.icon-logo {
+    max-width: 10%;
+    height: 20px;
 }
