@@ -1,18 +1,23 @@
 .header-section {
     border: 1px solid black;
-    background-color: lightblue;
-    height: 100px;
+    background-color: #000099;
+    height: 70px;
 }
 
 .dropdown {
-    top: 25%;
-    float: left;
+    margin-top: 15px;
+    float: left;    
+}
+
+.header-section .btn {
+    background-color: #000099;
+    color: white;    
 }
 
 .icon-logo {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 10px;
     max-width: 80px !important;
-    height: 40px !important;
+    height: 30px !important;
     float: left;
 }
