@@ -1,0 +1,9 @@
+.header-section {
+    border: 1px solid black;
+    background-color: lightblue;
+    height: 100px;
+}
+
+.img-fluid {
+    height: 50%;
+}
