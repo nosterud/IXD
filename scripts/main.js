@@ -1,17 +1,29 @@
-$("#advance").on("click", function() {
-    var $bar = $(".ProgressBar");
-    if ($bar.children(".is-current").length > 0) {
-      $bar.children(".is-current").removeClass("is-current").addClass("is-complete").next().addClass("is-current");
-    } else {
-      $bar.children().first().addClass("is-current");
-    }
-  });
-  
-  $("#previous").on("click", function() {
-    var $bar = $(".ProgressBar");
-    if ($bar.children(".is-current").length > 0) {
-      $bar.children(".is-current").removeClass("is-current").prev().removeClass("is-complete").addClass("is-current");
-    } else {
-      $bar.children(".is-complete").last().removeClass("is-complete").addClass("is-current");
-    }
-  });
+$( function() {
+    var availableTags = [
+      "ActionScript",
+      "AppleScript",
+      "Asp",
+      "BASIC",
+      "C",
+      "C++",
+      "Clojure",
+      "COBOL",
+      "ColdFusion",
+      "Erlang",
+      "Fortran",
+      "Groovy",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Lisp",
+      "Perl",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Scala",
+      "Scheme"
+    ];
+    $( "#from" ).autocomplete({
+      source: availableTags
+    });
+  } );
