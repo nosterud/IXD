@@ -2,11 +2,17 @@
     border: 1px solid black;
     background-color: lightblue;
     height: 100px;
+}
 
+.dropdown {
+    top: 25%;
+    float: left;
 }
 
 .icon-logo {
-    max-width: 60px !important;
+    margin-top: 25px;
+    margin-left: 10px;
+    max-width: 80px !important;
     height: 40px !important;
     float: left;
 }
