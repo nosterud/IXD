@@ -5,7 +5,7 @@
 }
 
 .dropdown {
-    margin-top: 15px;
+    margin-top: 5px;
     float: left;    
 }
 
@@ -15,13 +15,16 @@
 }
 
 .icon-logo {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 10px;
-    max-width: 80px !important;
-    height: 30px !important;
+    max-width: 90px !important;
+    height: 35px !important;
     float: left;
+<<<<<<< HEAD
 }
 
 #booking-bar{
     padding: 100px 0 120px 0;
+=======
+>>>>>>> eb61efe4158988eb983b504533b9694d6d87f7cc
 }
