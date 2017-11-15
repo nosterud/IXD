@@ -5,7 +5,7 @@
 }
 
 .dropdown {
-    margin-top: 15px;
+    margin-top: 5px;
     float: left;    
 }
 
@@ -15,9 +15,9 @@
 }
 
 .icon-logo {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 10px;
-    max-width: 80px !important;
-    height: 30px !important;
+    max-width: 90px !important;
+    height: 35px !important;
     float: left;
 }
