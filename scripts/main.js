@@ -26,25 +26,26 @@ $( function() {
     $( ".autoComplete" ).autocomplete({
       source: availableTags
     });
-  } );
-  $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
+  });
 
-  $("#advance").on("click", function() {
+$( function() {
+    $( "#datepicker" ).datepicker();
+});
+
+$("#advance").on("click", function() {
     var $bar = $(".ProgressBar");
     if ($bar.children(".is-current").length > 0) {
-      $bar.children(".is-current").removeClass("is-current").addClass("is-complete").next().addClass("is-current");
-    } else {
-      $bar.children().first().addClass("is-current");
+        $bar.children(".is-current").removeClass("is-current").addClass("is-complete").next().addClass("is-current");
+} else {
+        $bar.children().first().addClass("is-current");
     }
-  });
-   
-  $("#previous").on("click", function() {
+});
+
+$("#previous").on("click", function() {
     var $bar = $(".ProgressBar");
     if ($bar.children(".is-current").length > 0) {
-      $bar.children(".is-current").removeClass("is-current").prev().removeClass("is-complete").addClass("is-current");
-    } else {
-      $bar.children(".is-complete").last().removeClass("is-complete").addClass("is-current");
+        $bar.children(".is-current").removeClass("is-current").prev().removeClass("is-complete").addClass("is-current");
+} else {
+        $bar.children(".is-complete").last().removeClass("is-complete").addClass("is-current");
     }
-  });
+});
