@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel='stylesheet prefetch' href='css/kiaod.css'>
     <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
     <title>IxD Innlevering</title>
 </head>
@@ -27,12 +26,12 @@
             <img class="img-fluid icon-logo" src="./images/sas-white.png"/>
     </header>
     <div class="container">                                        
-        <section id="booking-bar" class="container col-12 offset-1 row">
-            <input class="autoComplete" type="text" placeholder="Fra:"/>
+       <section id="booking-bar" class="container col-12  row">
+            <input class="border-left" class="autoComplete" type="text" placeholder="Fra:"/>
             <input class="autoComplete" type="text" placeholder="Til:" />
             <input id="datepicker" type="text" placeholder="Dato:" />
             <input type="text" placeholder="Reisende"/>
-            <input type="text" placeholder="Tillegstjenester:" />
+            <input class="border-right" type="text" placeholder="Tillegstjenester:" />
         </section>
         <section class="">
             <ul class="nav nav-tabs">
@@ -73,9 +72,9 @@
                </ol>
                   
                 
-               <p>
-                 <button id="previous">Previous</button>
-                 <button id="advance">Advance</button>
+               <p class="row">
+                 <button class="btn btn-primary" id="previous">Previous</button>
+                 <button class="btn btn-primary" id="advance">Advance</button>
                </p>
                <svg xmlns="http://www.w3.org/2000/svg">
                 <symbol id="checkmark-bold" viewBox="0 0 24 24">
