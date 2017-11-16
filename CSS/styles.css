@@ -6,24 +6,50 @@
 
 .dropdown {
     margin-top: 5px;
-    float: left;    
+    float: left;
 }
 
 .header-section .btn {
     background-color: #000099;
-    color: white;    
+    color: white;
 }
 
 .icon-logo {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 10px;
     max-width: 90px !important;
-    height: 35px !important;
+    height: 30px !important;
     float: left;
+}
+
+.header-icons:hover {
+    cursor: pointer;
+}
+
+.icon-flag {
+    float: right;
+    height: 25px !important;
+    width: auto;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-left: 1px solid white;
+}
+
+.icon-user {
+    float: right;
+    height: 25px !important;
+    width: auto;
+    margin-top: 20px;
+    margin-right: 10px;
 }
 
 #booking-bar{
     padding: 100px 0 120px 0;
+}
+
+#dropdownMenuButton:hover {
+    cursor: pointer;
+    color: #cccccc;
 }
 
 .ProgressBar {
@@ -35,15 +61,16 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
-   
+
   .ProgressBar-step {
     text-align: center;
     position: relative;
     width: 100%;
   }
+
   .ProgressBar-step:before, .ProgressBar-step:after {
     content: "";
     height: 0.5em;
@@ -54,13 +81,15 @@
     left: -50%;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     -webkit-transition: all .25s ease-out;
     transition: all .25s ease-out;
   }
+
   .ProgressBar-step:first-child:before, .ProgressBar-step:first-child:after {
     display: none;
   }
+
   .ProgressBar-step:after {
     background-color: #00637C;
     width: 0%;
@@ -68,7 +97,7 @@
   .ProgressBar-step.is-complete + .ProgressBar-step.is-current:after, .ProgressBar-step.is-complete + .ProgressBar-step.is-complete:after {
     width: 100%;
   }
-   
+
   .ProgressBar-icon {
     width: 1.5em;
     height: 1.5em;
@@ -82,15 +111,17 @@
     -webkit-transition: all .25s ease-out;
     transition: all .25s ease-out;
   }
+
   .is-current .ProgressBar-icon {
     fill: #00637C;
     background-color: #00637C;
   }
+
   .is-complete .ProgressBar-icon {
     fill: #DBF1FF;
     background-color: #00637C;
   }
-   
+
   .ProgressBar-stepLabel {
     display: block;
     text-transform: uppercase;
@@ -101,10 +132,11 @@
     -webkit-transition: all .25s ease-out;
     transition: all .25s ease-out;
   }
+
   .is-current > .ProgressBar-stepLabel, .is-complete > .ProgressBar-stepLabel {
     color: #00637C;
   }
-   
+
   .wrapper {
     max-width: 1000px;
     margin: 4em auto;
